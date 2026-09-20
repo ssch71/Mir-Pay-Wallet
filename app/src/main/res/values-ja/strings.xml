@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Mir Pay Wallet</string>
+
+    <string name="app_title_mir">Mir</string>
+    <string name="app_title_pay">Pay</string>
+
+    <string name="complication_provider_label">クイックスタート</string>
+
+    <!-- Settings -->
+    <string name="settings_card_title">カード</string>
+    <string name="settings_choose_card">カードを選択</string>
+    <string name="settings_enter_ms">秒</string>
+    <string name="settings_enter_vibration_intensity">強度 (ms)</string>
+    <string name="settings_haptic_feedback">触覚フィードバック</string>
+    <string name="settings_haptic_feedback_label">フィードバック</string>
+    <string name="settings_haptic_feedback_secondary">開始時と終了時</string>
+    <string name="settings_timer_title">カウントダウン時間</string>
+    <string name="settings_title">設定</string>
+    <string name="settings_vibrate_every_second_label">連続振動</string>
+    <string name="settings_vibrate_every_second_secondary">毎秒</string>
+    <string name="settings_vibration_intensity_title">強度</string>
+    <string name="settings_about">アプリについて</string>
+    <string name="settings_app_version">バージョン</string>
+
+    <!-- Vibration intensities -->
+    <string name="settings_vibration_intensity_gentle">極小</string>
+    <string name="settings_vibration_intensity_mild">控えめ</string>
+    <string name="settings_vibration_intensity_moderate">약</string>
+    <string name="settings_vibration_intensity_standard">標準</string>
+    <string name="settings_vibration_intensity_robust">やや強め</string>
+    <string name="settings_vibration_intensity_vigorous">強め</string>
+    <string name="settings_vibration_intensity_powerful">強力</string>
+    <string name="settings_vibration_intensity_intense">極強</string>
+    <string name="settings_vibration_intensity_extreme">最大</string>
+
+    <!-- Default abstract cards -->
+    <string name="card_default_secret_garden">シークレットガーデン</string>
+    <string name="card_default_swiss_plum">スイスプラム</string>
+    <string name="card_default_light_coral">ライトコーラル</string>
+    <string name="card_default_spiced_nectarine">スパイスドネクタリン</string>
+    <string name="card_default_stargate_shimmer">スターゲートシマー</string>
+    <string name="card_default_vega_violet">ベガバイオレット</string>
+    <string name="card_default_wonder_lust">ワンダーラスト</string>
+
+    <!-- Real bank cards -->
+    <string name="card_real_alpha_title">Alpha</string>
+    <string name="card_real_rosbank_title">Rosbank</string>
+    <string name="card_real_rosbank_supreme_title">Rosbank Supreme</string>
+    <string name="card_real_sberbank_title">SberBank</string>
+    <string name="card_real_sberbank_tyan_2_title">SberBank Tyan 2</string>
+    <string name="card_real_tinkoff_title">Tinkoff</string>
+    <string name="card_real_psb_title">PSB</string>
+    <string name="card_real_gazprombank_title">Gazprombank</string>
+    <string name="card_real_rshb_title">RSHB</string>
+    <string name="card_real_raiffeisen_title">Raiffeisen</string>
+    <string name="card_real_tinkoff_drive_title">Tinkoff Drive</string>
+    <string name="card_real_tinkoff_premium_title">Tinkoff Premium</string>
+    <string name="card_real_tinkoff_platinum_title">Tinkoff Platinum</string>
+    <string name="card_real_tinkoff_friends_title">Tinkoff Friends</string>
+    <string name="card_real_tinkoff_invest_bear_title">Tinkoff Invest Bear</string>
+    <string name="card_real_tinkoff_s7_airlines_title">Tinkoff S7 Airlines</string>
+    <string name="card_real_tinkoff_pomegranate_title">Tinkoff Pomegranate</string>
+    <string name="card_real_uralsib_title">Uralsib</string>
+    <string name="card_real_vtb_title">VTB</string>
+    <string name="card_real_yandex_title">Yandex</string>
+    <string name="card_real_yoomoney_black_title">YooMoney Black</string>
+    <string name="card_real_yoomoney_violet_title">YooMoney Violet</string>
+    <string name="card_real_yoomoney_gaming_title">YooMoney Gaming</string>
+    <string name="card_real_yoomoney_graffiti_title">YooMoney Graffiti</string>
+    <string name="card_real_yoomoney_minecraft_title">YooMoney Minecraft</string>
+    <string name="card_real_yoomoney_kids_title">YooMoney Kids</string>
+    <string name="card_real_yoomoney_kids_2_title">YooMoney Kids 2</string>
+    <string name="card_real_primbank_title">Primbank</string>
+    <string name="card_real_ozon_title">Ozon Bank</string>
+    <string name="card_real_mts_title">MTS Bank</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_text">Google Payアプリの起動時にMir Pay Walletを起動</string>
+</resources>
