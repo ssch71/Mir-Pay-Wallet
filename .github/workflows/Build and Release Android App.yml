@@ -1,9 +1,9 @@
 name: Build and Release Android App
 
 on:
+  workflow_dispatch:
+  pull_request:
   push:
-    tags:
-      - 'v*'
 
 jobs:
   build-and-release:
