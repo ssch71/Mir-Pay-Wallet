@@ -71,10 +71,6 @@ jobs:
           fi
           echo "Verified signing certificate: $ACTUAL_CERT_SHA256"
 
-      # 重命名 Debug 包
-      # github.ref_name: 分支名 (例如 main)
-      # github.run_number: Actions 的历史运行编号 (例如 15)
-      # env.SHORT_SHA: 刚刚获取的 7 位 commit 标识 (例如 a1b2c3d)
       - name: Rename APK
         if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
         run: |
