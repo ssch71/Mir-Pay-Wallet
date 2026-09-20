@@ -75,7 +75,7 @@ jobs:
         if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
         run: |
           SAFE_BRANCH_NAME=$(echo "${{ github.ref_name }}" | tr '/' '-')
-          mv app/build/outputs/apk/debug/app-debug.apk "app/build/outputs/apk/debug/OneUIX-Debug-${SAFE_BRANCH_NAME}-Run${{ github.run_number }}-${{ env.SHORT_SHA }}.apk"
+          mv app/build/outputs/apk/debug/app-debug.apk "app/build/outputs/apk/debug/MirPayWallet-WearOS-Debug-${SAFE_BRANCH_NAME}-Run${{ github.run_number }}-${{ env.SHORT_SHA }}.apk"
 
       - name: Upload APK
         if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
