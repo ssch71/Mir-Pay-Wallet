@@ -39,7 +39,6 @@ jobs:
             printf 'keyPassword=%s\n' "$KEY_PASSWORD"
           } > keystore.properties
 
-
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
